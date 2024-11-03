@@ -1,11 +1,18 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import GroupCard from './GroupCard'
 import JoinGroupCard from './JoinGroupCard'
+import availableGroups from '@/data/discover.json'
 
 const Discover = () => {
     const [selected, setSelected] = useState('public')
+    const [groups, setGroups] = useState([])
+    
+    useEffect(() => {
+      const filter = availableGroups?.filter((group) => group?.visibility === selected)
+      setGroups(filter)
+    }, [selected])
 
   return (
     <div className='flex flex-col space-y-7'>
@@ -19,12 +26,11 @@ const Discover = () => {
         </button>
       </div>
       <div className='grid grid-cols-4 gap-5'>
-        <JoinGroupCard />
-        <JoinGroupCard />
-        <JoinGroupCard />
-        <JoinGroupCard />
-        <JoinGroupCard />
-        <JoinGroupCard />
+        {
+          groups?.map((group) => (
+            <JoinGroupCard group={group} />
+          ))
+        }
       </div>
     </div>
   )

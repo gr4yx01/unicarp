@@ -1,0 +1,42 @@
+[
+    {
+        "name": "NACOS 0'24",
+        "created": "14th January, 2024",
+        "creator": "NACOS",
+        "members": "28",
+        "visibility": "private",
+        "status": "Pending"
+    },
+    {
+        "name": "SUG",
+        "created": "29th January, 2023",
+        "creator": "NACOS",
+        "members": "1023",
+        "visibility": "public",
+        "status": "None"
+    },
+    {
+        "name": "NAPSS 0'24",
+        "created": "10th March, 2024",
+        "creator": "NAPSS",
+        "members": "100",
+        "visibility": "public",
+        "status": "Pending"
+    },
+    {
+        "name": "BEDM 0'24",
+        "created": "30th October, 2024",
+        "creator": "BEDM",
+        "members": "140",
+        "visibility": "private",
+        "status": "None"
+    },
+    {
+        "name": "JCB 0'24",
+        "created": "10th December, 2024",
+        "creator": "Joint Christian Body",
+        "members": "1250",
+        "visibility": "public",
+        "status": "None"
+    }
+]

@@ -1,9 +1,12 @@
+import { useRouter } from 'next/navigation';
 import React from 'react'
 import { TbUsersGroup } from "react-icons/tb";
 
 const GroupCard = ({ group:  { name, creator, created, members} }) => {
+  const router = useRouter()
+
   return (
-    <div className='border w-[250px] h-fit rounded-lg p-3 flex-col space-y-2'>
+    <div onClick={() => router.push('/user/group/1293')} className='border w-[250px] h-fit rounded-lg p-3 flex-col space-y-2'>
           <span className='font-semibold text-primaryDark'>{name}</span>
           <div className=''>
           <div className='font-medium text-xs'>

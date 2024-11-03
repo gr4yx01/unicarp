@@ -1,10 +1,7 @@
 'use client'
 
-import usePage from "@/store/page";
 import Sidebar from "../../components/Sidebar";
 import "../globals.css";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 
 export default function RootLayout({ children }) {
 
