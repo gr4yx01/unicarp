@@ -12,7 +12,7 @@ const Sidebar = () => {
   const currentPage = usePage((state) => state.currentPage)
 
   return (
-    <div className='h-screen w-1/6 border-r border-gray-300 flex flex-col items-center justify-between p-7'>
+    <div className='h-screen w-1/6  border-r border-gray-300  flex flex-col items-center justify-between p-7 sticky top-0'>
       <div className='flex flex-col space-y-10 items-center'>
         <p className='text-4xl font-semibold text-primaryDark'>Unimart</p>
         <ol className='space-y-10'>
