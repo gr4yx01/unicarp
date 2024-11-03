@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
         className={`flex`}
       >
         <Sidebar />
-        <div className="flex-1">
+        <div className="flex-1 p-7">
           {children}
         </div>
       </div>
