@@ -1,0 +1,30 @@
+[
+    {
+        "name": "John Anioma",
+        "reg_no": "2020/348291",
+        "status": "member"
+    },
+    {
+        "name": "Njideka Ikenna",
+        "reg_no": "2020/348291",
+        "status": "banned"
+    },{
+        "name": "Henry Nnamani",
+        "reg_no": "2020/348291",
+        "status": "member"
+    },{
+        "name": "Glory Amarachi",
+        "reg_no": "2020/348291",
+        "status": "pending"
+    },
+    {
+        "name": "Felicia Anthony",
+        "reg_no": "2020/348291",
+        "status": "pending"
+    },
+    {
+        "name": "Joy Ruth",
+        "reg_no": "2020/348291",
+        "status": "pending"
+    }
+]

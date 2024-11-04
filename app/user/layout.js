@@ -7,6 +7,11 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 export default function RootLayout({ children }) {
+  const setCurrentPage = usePage((state) => state.setCurrentPage)
+
+  useEffect(() => {
+    setCurrentPage('home')
+  }, [])
 
   return (
       <div

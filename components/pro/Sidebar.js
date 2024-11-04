@@ -14,19 +14,19 @@ const Sidebar = () => {
 
   const handleClick = (page) => {
     setCurrentPage(page)
-    router.push('/user/dashboard')
+    router.push('/pro/dashboard')
   }
 
   return (
     <div className='h-screen w-1/6  border-r border-gray-300  flex flex-col items-center justify-between p-7 sticky top-0'>
       <div className='flex flex-col space-y-10 items-center'>
-        <p className='text-4xl font-semibold text-primaryDark'>Unimart</p>
+      <div className='flex items-center relative space-x-1'>
+            <div className='w-8 h-8 rounded-tl-full rounded-bl-full bg-primaryDark '/>
+            <p className='text-primaryDark font-bold text-2xl'>Unicarp</p>
+            <div className='w-8 h-8 rounded-tr-full rounded-br-full bg-primaryDark '/>
+        </div>
         <ol className='space-y-10'>
-          <li onClick={() => handleClick('home')} className={`flex space-x-5 p-5 px-8 ${currentPage === 'home' && " bg-primaryDark text-white rounded-lg"}`}>
-            <IoHomeOutline size={20}/>
-            <span className='font-semibold'>Home</span>
-          </li>
-          <li onClick={() => handleClick('discover')} className={`flex space-x-5 p-5 px-8 ${currentPage === 'discover' && " bg-primaryDark text-white rounded-lg"}`}>
+          <li onClick={() => handleClick('groups')} className={`flex space-x-5 p-5 px-8 ${currentPage === 'groups' && " bg-primaryDark text-white rounded-lg"}`}>
           <FaPeopleGroup size={20} />
             <span className='font-semibold'>Groups</span>
           </li>

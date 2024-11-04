@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import GroupCard from '../common/GroupCard'
 import groups from '@/data/groups.json'
+import GroupCard from './GroupCard'
 
 const UserHomePage = () => {
     const [selected, setSelected] = useState('public')

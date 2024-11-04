@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Button from './common/Button'
+import Button from '../common/Button'
 import useMessage from '@/store/message'
 import messages from '@/data/messages.json'
 
@@ -23,7 +23,7 @@ const MainMessages = () => {
                 <span className='font-semibold'>{message?.title}</span>
                 <span className='text-sm'>{message?.created}</span>
             </div>
-            <Button label={"View more"} bgStyle={"p-1"} handleClick={() => handleClick(message)}/>
+                <Button label={"View more"} bgStyle={"p-1"} handleClick={() => handleClick(message)}/>
             </div>
         ))
     }

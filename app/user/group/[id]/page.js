@@ -1,8 +1,8 @@
 'use client'
 
 import Button from '@/components/common/Button'
-import Members from '@/components/Members'
-import Messages from '@/components/Messages'
+import Members from '@/components/user/Members'
+import Messages from '@/components/user/Messages'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { IoArrowBack } from 'react-icons/io5'
