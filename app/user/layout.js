@@ -1,7 +1,7 @@
 'use client'
 
 import usePage from "@/store/page";
-import Sidebar from "../../components/Sidebar";
+import Sidebar from "../../components/user/Sidebar";
 import "../globals.css";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";

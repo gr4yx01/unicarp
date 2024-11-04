@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import Button from './common/Button'
 import MainMessages from './MainMessages'
 import useMessage from '@/store/message'
 import MessageDetail from './MessageDetail'

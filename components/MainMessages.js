@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Button from './Button'
+import Button from './common/Button'
 import useMessage from '@/store/message'
 import messages from '@/data/messages.json'
 

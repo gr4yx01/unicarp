@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { IoHomeOutline } from "react-icons/io5";
 import { RiCompassDiscoverLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
-import Button from './Button';
+import Button from '../common/Button';
 import usePage from '@/store/page';
 import { useRouter } from 'next/navigation';
 

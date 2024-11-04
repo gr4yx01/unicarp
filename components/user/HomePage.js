@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import GroupCard from './GroupCard'
+import GroupCard from '../common/GroupCard'
 import groups from '@/data/groups.json'
 
 const UserHomePage = () => {

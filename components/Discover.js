@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import GroupCard from './GroupCard'
+import GroupCard from './common/GroupCard'
 import JoinGroupCard from './JoinGroupCard'
 import availableGroups from '@/data/discover.json'
 

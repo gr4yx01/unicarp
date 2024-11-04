@@ -2,7 +2,7 @@
 
 import Discover from '@/components/Discover'
 import Profile from '@/components/Profile'
-import UserHomePage from '@/components/UserHomePage'
+import UserHomePage from '@/components/user/HomePage'
 import usePage from '@/store/page'
 import { useEffect, useState } from 'react'
 

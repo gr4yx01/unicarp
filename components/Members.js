@@ -1,6 +1,6 @@
 import { Button } from 'antd'
 import React from 'react'
-import MemberCard from './MemberCard'
+import MemberCard from './common/MemberCard'
 
 const Members = () => {
   return (

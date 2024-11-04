@@ -1,7 +1,7 @@
 'use client'
 
-import Button from '@/components/Button'
-import TextField from '@/components/TextField'
+import Button from '@/components/common/Button'
+import TextField from '@/components/common/TextField'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 

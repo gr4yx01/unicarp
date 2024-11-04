@@ -1,6 +1,6 @@
 import React from 'react'
 import { TbUsersGroup } from "react-icons/tb";
-import Button from './Button';
+import Button from './common/Button';
 
 const JoinGroupCard = ({ group : {name, creator, created, members, status }}) => {
   return (
